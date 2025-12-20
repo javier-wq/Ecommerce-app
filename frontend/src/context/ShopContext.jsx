@@ -13,9 +13,9 @@ const ShopContextProvider = (props) => {
     }
 
     return (
-        <ShopContextProvider value={value}>
+        <ShopContext.Provider value={value}>
             {props.children}
-        </ShopContextProvider>
+        </ShopContext.Provider>
     )
 }
 
